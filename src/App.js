@@ -13,7 +13,7 @@ import "./index.css";
 function App() {
   return (
     <div className="container">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header />
         <div>
           <Routes>
