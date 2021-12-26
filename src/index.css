@@ -1,13 +1,72 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 60%;
+  margin: 30px auto;
+}
+
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-1000px);
+  animation: animeLeft 0.4s forwards;
+}
+
+img {
+  border-radius: 6px;
+}
+
+.loading {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid #dedada;
+  border-right-color: transparent;
+  animation: loading 1s infinite;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animeLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    max-width: 90%;
+  }
 }
