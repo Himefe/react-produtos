@@ -17,9 +17,9 @@ function App() {
         <Header />
         <div>
           <Routes>
-            <Route path="/" element={<Produtos />} />
-            <Route path="/contato" element={<Contato />} />
-            <Route path="produto/:id" element={<Product />} />
+            <Route path="/react-produtos" element={<Produtos />} />
+            <Route path="react-produtos/contato" element={<Contato />} />
+            <Route path="react-produtos/produto/:id" element={<Product />} />
           </Routes>
         </div>
       </BrowserRouter>
