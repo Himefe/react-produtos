@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-produtos/static/css/main.fa3f2669.css",
-    "main.js": "/react-produtos/static/js/main.0282e940.js",
+    "main.js": "/react-produtos/static/js/main.d153e381.js",
     "static/media/contato.jpg": "/react-produtos/static/media/contato.1bd9bf2dc50673043059.jpg",
     "index.html": "/react-produtos/index.html",
     "main.fa3f2669.css.map": "/react-produtos/static/css/main.fa3f2669.css.map",
-    "main.0282e940.js.map": "/react-produtos/static/js/main.0282e940.js.map"
+    "main.d153e381.js.map": "/react-produtos/static/js/main.d153e381.js.map"
   },
   "entrypoints": [
     "static/css/main.fa3f2669.css",
-    "static/js/main.0282e940.js"
+    "static/js/main.d153e381.js"
   ]
 }
